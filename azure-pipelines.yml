@@ -15,7 +15,7 @@ variables:
 
 
   # AKS / Helm
-  aksResourceGroup: 'terraform-dev'
+  aksResourceGroup: 'terraform-prod'
   aksClusterName: 'demo-aks'
   helmReleaseName: 'lg-node.js-example'
   helmChartPath: 'helm/app'
